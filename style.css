@@ -1,0 +1,236 @@
+.container {
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    padding: 8px;
+}
+
+.nav {
+    padding: 12px;
+}
+
+.nav .logo{
+    float: left;
+    width: 10%;
+}
+
+.nav .img {
+    float: left;
+    padding:5px;
+    background-color: #F08F28;
+}
+
+
+.nav .img img {
+    width:39px ;
+    height:39px ;
+}
+
+ul {
+    list-style:none;
+    padding-left:180px;
+    overflow:hidden;
+    
+}
+
+ul li {
+    float:left;padding:10px;
+    padding-top:0 ;
+
+}
+
+li.active {
+    color: #F08F28
+}
+
+li:hover {
+    color: #F08F28
+}
+
+.button {
+    border: 1px solid #F08F28;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+
+
+.nav .button {
+    float: right;
+}
+
+
+/* start map */
+
+section.map {
+    background-image: url('images/adaptive_clothing.png');
+    background-color: red;
+    overflow: hidden;
+    height: 286px;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(44, 44, 44, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+/* end mar */
+
+
+/* start about */
+.about {
+    height: 286px;
+    overflow: hidden;
+
+}
+
+.about h3 {
+    text-align: center;
+}
+
+.about-us {
+    float: left;
+    width: 50%;
+}
+
+.about-us p {
+    line-height: 2;
+
+}
+.about-us p a {
+    text-decoration: none;
+    color: orange;
+}
+
+.about-us p span {
+    color: red;
+}
+
+.imgDE {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.imgDE img {
+    width: 100%;
+}
+
+/* end about */
+
+
+/* satrt team */
+.speakers {
+    text-align: center;
+}
+
+.con {
+    background-color: rgb(156, 156, 156);
+    overflow: hidden;
+    padding: 30px;
+}
+
+.team {
+    width: 33.3333%;
+    float: left;
+}
+
+.team h4 {
+    margin: 0;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 129px;
+    height:129px ;
+}
+
+
+
+/* end team */
+
+/* start train */
+
+.train {
+    text-align: center;
+}
+
+.timer {
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    padding: 30px;
+    
+
+}
+
+.ll {
+    width: 25%;
+    float: left;
+
+
+}
+
+.time {
+    border-radius: 50%;
+    float: left;
+    padding: 20px;
+    border: 1px solid;
+
+}
+
+/* end train */
+
+/* start sponsor */
+
+
+.sponsor {
+    padding: 50px;
+}
+
+.sponsor h2 {
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.spon {
+    width: 33.33333%;
+    float: left;
+}
+
+.spon img {
+    width: 250px;
+    height: 220px;
+}
+
+/* end sponsor */
+
+
+
+
+
+
+.foot{
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    padding: 8px;
+}
